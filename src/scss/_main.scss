@@ -19,3 +19,12 @@
   text-align: right;
   margin: 0 10%;
 }
+.button {
+  padding: 20px 50px;
+  background-color: $simpsons_blue;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 30%;
+  right: 50px;
+}
