@@ -64,6 +64,15 @@ module.exports = {
             name: "assets/fonts/[name].[ext]"
           }
         }
+      },
+      {
+        test: /\.(wav)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "assets/sounds/[name].[ext]"
+          }
+        }
       }
     ]
   },
