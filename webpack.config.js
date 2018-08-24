@@ -79,7 +79,7 @@ module.exports = {
       ignored: /node_modules/
     }
   },
-  mode: "development",
+  mode: "production",
   plugins: [
     new MiniCssExtractPlugin({
       filename: "style.css"
