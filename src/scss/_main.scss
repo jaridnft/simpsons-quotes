@@ -1,0 +1,21 @@
+.main-title {
+  font-size: 100px;
+  display: block;
+  margin-top: 25px;
+  @include tablet {
+    // font-size: 50px;
+  }
+}
+.secondary-title {
+  display: block;
+  text-align: center;
+}
+.quote {
+  font-size: 60px;
+  margin: 100px 5% 30px 5%;
+  letter-spacing: 1px;
+}
+.author {
+  text-align: right;
+  margin: 0 10%;
+}

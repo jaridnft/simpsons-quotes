@@ -1,5 +1,6 @@
+@import "normalize";
 @import "variables";
-
-body {
-  background: $bg-color;
-}
+@import "fonts";
+@import "mixins";
+@import "elements";
+@import "main";
