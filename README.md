@@ -6,7 +6,7 @@
 
 ## Motivation
 
-I was inspired by @johnstonstu's "Quotes on Don" to create my own quote generator with a deep theme. After finding a [Simpsons quote API](https://thesimpsonsquoteapi.glitch.me/), and [Simpsons font](http://www.dailyfreefonts.com/fonts/info/125-Simpsons.html) I was off to the races!
+I was inspired by @johnstonstu 's "Quotes on Don" to create my own quote generator with a deep theme. After finding a [Simpsons quote API](https://thesimpsonsquoteapi.glitch.me/), and [Simpsons font](http://www.dailyfreefonts.com/fonts/info/125-Simpsons.html) I was off to the races!
 
 My intention was to also practice more with Webpack as I've used Gulp in previous projects.
 
