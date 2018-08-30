@@ -14,7 +14,7 @@ My intention was to also practice more with Webpack as I've used Gulp in previou
 
 - Webpack
 - JavaScript ES6 / jQuery
-- Scss / CSS
+- Sass / CSS
 
 ## Code Sample
 
