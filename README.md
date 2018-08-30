@@ -2,7 +2,7 @@
 
 #### Author: Jarid Warren [ <jaridwarren@gmail.com> ]
 
-![alt-text](./screenshot.png "Simpsons Quote Preview")
+![alt-text](./assets/screenshot.png "Simpsons Quote Preview")
 
 ## Motivation
 
