@@ -13,7 +13,7 @@ My intention was to also practice more with Webpack as I've used Gulp in previou
 ## Technology
 
 * JavaScript ES6 / jQuery
-* NPM Webpack
+* NPM / Webpack
 * Sass / CSS
 * HTML
 
