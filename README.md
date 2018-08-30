@@ -12,9 +12,10 @@ My intention was to also practice more with Webpack as I've used Gulp in previou
 
 ## Technology
 
-- Webpack
-- JavaScript ES6 / jQuery
-- Scss / CSS
+* JavaScript ES6 / jQuery
+* NPM Webpack
+* Sass / CSS
+* HTML
 
 ## Code Sample
 
