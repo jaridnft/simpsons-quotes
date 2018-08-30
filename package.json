@@ -8,8 +8,8 @@
     "build": "webpack"
   },
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/jaridwarren/simpsons-quotes.git"
+    "type": "git",
+    "url": "git+https://github.com/jaridwarren/simpsons-quotes.git"
   },
   "author": "Jarid Warren <jaridwarren@gmail.com>",
   "license": "ISC",
