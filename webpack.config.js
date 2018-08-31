@@ -57,12 +57,17 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2|.wav|.ico)$/,
+        test: /\.(eot|svg|ttf|woff|woff2|.ico)$/,
         include: [assets],
         loader: 'file-loader',
         options: {
           name: '[path]/[name].[ext]'
         }
+      },
+      {
+        test: /\.wav$/,
+        include: [assets],
+        loader: 'url-loader'
       }
     ]
   },
