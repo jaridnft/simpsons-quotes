@@ -27,4 +27,8 @@
   position: absolute;
   bottom: 30%;
   right: 50px;
+  &:hover {
+    background-color: #016d97;
+    cursor: pointer;
+  }
 }

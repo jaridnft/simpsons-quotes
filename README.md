@@ -2,7 +2,7 @@
 
 #### Author: Jarid Warren [ <jaridwarren@gmail.com> ]
 
-![alt-text](./assets/screenshot.png "Simpsons Quote Preview")
+![alt-text](./assets/images/demo.gif 'Simpsons Quote Preview')
 
 ## Motivation
 
@@ -12,10 +12,10 @@ My intention was to also practice more with Webpack as I've used Gulp in previou
 
 ## Technology
 
-* JavaScript ES6 / jQuery
-* NPM / Webpack
-* Sass / CSS
-* HTML
+- JavaScript ES6 / jQuery
+- NPM / Webpack
+- Sass / CSS
+- HTML
 
 ## Code Sample
 
@@ -31,3 +31,29 @@ const soundClips = ["doh", "excellent", "woohoo", "yes"];
     );
     buttonAudio.play();
 ```
+
+## Setup
+
+Download or clone repo, then run the following commands in terminal:
+
+**Initialize NPM:**
+
+`> npm init`
+
+**Install Webpack:**
+
+`> npm install`
+
+**Build project:**
+
+`> webpack`
+
+**Build project for production (compression):**
+
+`> webpack -p`
+
+**Launch dev server to automatically update changes:**
+
+`> webpack-dev-server`
+
+## @TODO

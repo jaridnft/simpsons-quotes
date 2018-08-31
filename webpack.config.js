@@ -1,12 +1,13 @@
 const path = require('path');
 const resolve = require('path').resolve;
 const src = resolve(__dirname, 'src');
+const assets = resolve(__dirname, 'assets');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const autoprefixer = require('autoprefixer');
 const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/entry.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
@@ -35,8 +36,7 @@ module.exports = {
             }
           },
           {
-            loader: 'sass-loader',
-            options: {}
+            loader: 'sass-loader'
           }
         ]
       },
@@ -57,18 +57,12 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2)$/,
-        use: {
-          loader: 'file-loader',
-          options: {
-            name: 'assets/fonts/[name].[ext]'
-          }
+        test: /\.(eot|svg|ttf|woff|woff2|.wav|.ico)$/,
+        include: [assets],
+        loader: 'file-loader',
+        options: {
+          name: '[path]/[name].[ext]'
         }
-      },
-      {
-        test: /\.wav$/,
-        include: [src],
-        loader: 'file-loader'
       }
     ]
   },
