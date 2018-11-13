@@ -55,5 +55,3 @@ Download or clone repo, then run the following commands in terminal:
 **Launch dev server to automatically update changes:**
 
 `> webpack-dev-server`
-
-## @TODO
