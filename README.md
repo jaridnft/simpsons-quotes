@@ -1,6 +1,6 @@
 # Simpsons Quote Generator
 
-#### Author: Jarid Warren [ <jaridwarren@gmail.com> ]
+#### Author: Jarid [ <jarid@hey.com> ]
 
 ![alt-text](./assets/images/readme-images/demo.gif 'Simpsons Quote Preview')
 
